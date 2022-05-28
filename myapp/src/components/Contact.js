@@ -39,7 +39,7 @@ const Contact = () => {
               </div>
               <ul className="contactCircles">
                 <li>
-                  <a href="https://github.com/Rohit8483" target="_blank">
+                  <a href="https://github.com/nikhilhir" target="_blank">
                     <FaGithub className="headerIcon" />
                   </a>
                 </li>

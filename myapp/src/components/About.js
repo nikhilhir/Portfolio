@@ -16,14 +16,14 @@ const About = () => {
         <div className="row  h-650 alignCenter">
           <div className="col-6">
             <div className="about__img">
-              <img src="/images/man-01.png" alt="man" />
+              <img src="/images/backgrounnd.jpg" alt="man" />
             </div>
           </div>
           <div className="col-6">
             <div className="about__info">
-              <h1>Hi There</h1>
-              <div className="about__info-p1">
-                I'm Rohit Hirulkar and I'm a web developer with a focus on the
+              <h1>Hello Stranger!</h1>
+              <div className="about__info-p1 " >
+              👋, My name is Nikhil Hirulkar and I'm a Full Stack Developer with a focus on the
                 MERN stack, but still exploring other technologies and
                 frameworks that catch my interest! if you're looking for a
                 developer to add to your team, I'd love to hear from you! Plaese
@@ -32,7 +32,7 @@ const About = () => {
 
               <div className="header__buttons myBtn">
                 <a
-                  href="https://drive.google.com/file/d/1P5iu5Sarlpq-RPX3CP9a908f4vCev6nm/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Y8kt2PPRPso_jENBf3XXkE_1Qfb6u3NC/view?usp=sharing"
                   target="_blank"
                  
                   className="btn btn-outline"

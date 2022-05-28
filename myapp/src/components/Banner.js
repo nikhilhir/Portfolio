@@ -7,9 +7,9 @@ import {
 
 const Banner = () => {
   const [state] = React.useState({
-    title: "Rohit Hirulkar",
+    title: "Nikhil Hirulkar",
     text: "FULL-STACK WEB DEVELOPER",
-    image: "./images/myImg.png",
+    image: "./images/ProfilePic.jpg",
   });
   return (
     <header id="Banner" className="header">
@@ -22,7 +22,7 @@ const Banner = () => {
                 <p>{state.text}</p>
                 <ul className="contactCircles">
                   <li>
-                    <a href="https://github.com/Rohit8483" target="_blank">
+                    <a href="https://github.com/nikhilhir" target="_blank">
                       <FaGithub className="headerIcon" />
                     </a>
                   </li>

@@ -144,7 +144,7 @@ p {
   text-decoration: none;
 }
 .btn-outline {
-  border: 2px solid #ff4a57;
+  border: 2px solid #1db582;
   border-radius: 50px;
   padding: 8px 25px;
   color: black;
@@ -248,8 +248,8 @@ p {
   padding: 30px;
 }
 .about__img img {
-  width: 350px;
-  height: 250px;
+  width: 390px;
+  height: 290px;
 }
 .about__info {
   color: black;
