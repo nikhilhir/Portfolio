@@ -53,7 +53,7 @@ const Contact = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.facebook.com/home.php" target="_blank">
+                  <a href="https://www.facebook.com/nikhil.hirulkar.3" target="_blank">
                     <FaFacebookF className="headerIcon" />
                   </a>
                 </li>
