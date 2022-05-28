@@ -19,10 +19,10 @@ body {
 /* navbar */
 .navbar {
   width: 100%;
-  height: 60px;
+  height: 80px;
   position: fixed;
   top: 0;
-  background: linear-gradient(95deg, #408383, #7e5b5b);
+  background: linear-gradient(95deg, #49cf60, #caca2f);
   z-index: 1;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
@@ -41,13 +41,19 @@ body {
 .navbar__right {
   display: flex;
   list-style-type: none;
+  
 }
 .navbar__right li a {
   text-decoration: none;
   color: #fff;
   font-weight: 500;
   font-size: 18px;
-  padding: 0 18px;
+  padding: 5px 18px;
+ 
+}
+a:hover {
+  background-color:rgb(57, 43, 43);
+ text-decoration: "underline"  ;
 }
 
 /* Helpers */

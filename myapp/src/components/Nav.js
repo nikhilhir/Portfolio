@@ -10,12 +10,14 @@ const Nav = () => {
       <div className="container">
         <div className="navbar__container">
           <ul className="navbar__left">
-            <div className="navbar__left-logo"></div>
+            <div className="navbar__left-logo">
+              <img src="./images/1.jpg"/>
+            </div>
           </ul>
           {state ? (
             <ul className="navbar__right">
               <li>
-                <a href="#Banner">Home</a>
+                <a  href="#Banner">Home</a>
               </li>
 
               <li>

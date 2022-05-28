@@ -28,7 +28,7 @@ const Banner = () => {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/rohit-hirulkar-775a79167/"
+                      href="https://www.linkedin.com/in/nikhil-hirulkar-882a70127/"
                       target="_blank"
                    
                     >
@@ -37,7 +37,7 @@ const Banner = () => {
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/Rohit8483"
+                      href="https://twitter.com/@HirulkarR"
                       target="_blank"
                    
                     >
