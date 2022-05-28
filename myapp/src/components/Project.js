@@ -41,7 +41,7 @@ const Project = () => {
     },
   ]);
   return (
-    <div className="prices" id="Projects">
+    <div className="prices" id="Projects" style={{backgroundImage:"/images/bg.jpg"}}>
       <div className="container">
         <div className="common">
           <h1 className="mainHeader">{header.subHeading}</h1>

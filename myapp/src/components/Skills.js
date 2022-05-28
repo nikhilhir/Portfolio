@@ -6,6 +6,9 @@ import {
   FaReact,
   FaNodeJs,
   FaLeaf,
+  FaGithub,
+  FaBootstrap,
+  
   
 } from "react-icons/fa";
 const Skills = () => {
@@ -42,6 +45,16 @@ const Skills = () => {
       id: 6,
       icon: <FaLeaf className="commonIcons" />,
       heading: "MongoDB",
+    },
+    {
+      id: 7,
+      icon: <FaGithub className="commonIcons" />,
+      heading: "Github",
+    },
+    {
+      id: 8,
+      icon: <FaBootstrap className="commonIcons" />,
+      heading: "Bootstrap",
     },
   ]);
   return (

@@ -24,18 +24,18 @@ const Contact = () => {
               
               <div className="fl">
                 <p>
-                  <FaMobileAlt></FaMobileAlt><span> </span> +91 8483847674
+                  <FaMobileAlt></FaMobileAlt><span> </span> +91 8806801620
                 </p>
 
                 <p>
   
-                  <FaLocationArrow> </FaLocationArrow><span> </span>Pune, Maharashtra
+                  <FaLocationArrow> </FaLocationArrow><span> </span>Yavatmal, Maharashtra
                 </p>
 
                 <p>
                   
                   <FaGooglePlusSquare></FaGooglePlusSquare><span> </span>
-                  rohithirulkar848384@gmail.com
+                  nikhilhirulkar8@gmail.com
                 </p>
               </div>
               <ul className="contactCircles">
@@ -60,7 +60,7 @@ const Contact = () => {
 
                 <li>
                   <a
-                    href="https://www.instagram.com/rohithirulkar/"
+                    href="https://www.instagram.com/nikhil_hirulkar/"
                     target="_blank"
                   >
                     <FaInstagram className="headerIcon" />
