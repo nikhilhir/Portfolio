@@ -27,7 +27,7 @@ const Project = () => {
       id: 3,
       heading: "Be Bodywise Clone",
       img: "./images/BeBodywise.png",
-      link: "#",
+      link: "https://loquacious-lolly-d585d1.netlify.app/",
       repolink: "https://github.com/nikhilhir/TeamFriends",
       p:"Be Bodywise is a website provides diagnostics and e-pharmacy.It is e-commerce where users purchase health care products. plus free online consultation from the team of doctors for women’s health &wellness. "
     },
