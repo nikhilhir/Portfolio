@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  FaLinkedinIn,
-  FaTwitter,
-  FaGithub,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaTwitter, FaGithub } from "react-icons/fa";
 
 const Banner = () => {
   const [state] = React.useState({
@@ -30,17 +26,12 @@ const Banner = () => {
                     <a
                       href="https://www.linkedin.com/in/nikhil-hirulkar-882a70127/"
                       target="_blank"
-                   
                     >
                       <FaLinkedinIn className="headerIcon" />
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="https://twitter.com/@HirulkarR"
-                      target="_blank"
-                   
-                    >
+                    <a href="https://twitter.com/@HirulkarR" target="_blank">
                       <FaTwitter className="headerIcon" />
                     </a>
                   </li>

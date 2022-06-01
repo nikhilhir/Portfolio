@@ -1,23 +1,22 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
 
-
 const Nav = () => {
   const [state, setState] = React.useState(true);
-  
+
   return (
     <nav className="navbar">
       <div className="container">
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__left-logo">
-              <img src="./images/1.jpg"/>
+              <img src="./images/1.jpg" />
             </div>
           </ul>
           {state ? (
             <ul className="navbar__right">
               <li>
-                <a  href="#Banner">Home</a>
+                <a href="#Banner">Home</a>
               </li>
 
               <li>
@@ -32,6 +31,12 @@ const Nav = () => {
 
               <li>
                 <a href="#Contact">Contact</a>
+              </li>
+              <li>
+                <a href="https://drive.google.com/file/d/1Y8kt2PPRPso_jENBf3XXkE_1Qfb6u3NC/view?usp=sharing"  target="_blank">
+                  
+                  View Resume
+                </a>
               </li>
             </ul>
           ) : (

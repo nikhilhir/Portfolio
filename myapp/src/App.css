@@ -51,9 +51,9 @@ body {
   padding: 5px 18px;
  
 }
-a:hover {
-  background-color:rgb(57, 43, 43);
- text-decoration: "underline"  ;
+.navbar__right li a:hover {
+   background-color:rgb(37, 87, 46); 
+ text-decoration: "Underline"  ;
 }
 
 /* Helpers */
@@ -150,10 +150,11 @@ p {
   text-decoration: none;
 }
 .btn-outline {
-  border: 2px solid #1db582;
+  border: 2px solid #ff4a57;
   border-radius: 50px;
   padding: 8px 25px;
   color: black;
+  width: fit-content;
 }
 .btn-smart {
   background: #ff4a57;
