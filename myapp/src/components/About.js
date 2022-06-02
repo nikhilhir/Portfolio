@@ -21,7 +21,7 @@ const About = () => {
           </div>
           <div className="col-6">
             <div className="about__info">
-              <h1>Hello Stranger!</h1>
+              <h1>Hello Stranger!   demo</h1>
               <div className="about__info-p1 " >
               👋, My name is Nikhil Hirulkar and I'm a Full Stack Developer with a focus on the
                 MERN stack, but still exploring other technologies and
