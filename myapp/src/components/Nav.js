@@ -10,7 +10,9 @@ const Nav = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div className="navbar__left-logo">
-              <img src="./images/1.jpg" alt="logo" />
+              <a href="Banner">
+                <img src="./images/1.jpg" alt="logo" />{" "}
+              </a>
             </div>
           </ul>
           {state ? (
@@ -33,8 +35,11 @@ const Nav = () => {
                 <a href="#Contact">Contact</a>
               </li>
               <li>
-                <a href="https://drive.google.com/file/d/1Y8kt2PPRPso_jENBf3XXkE_1Qfb6u3NC/view?usp=sharing" target="_blank" rel="noreferrer" >
-                  
+                <a
+                  href="https://drive.google.com/file/d/1Y8kt2PPRPso_jENBf3XXkE_1Qfb6u3NC/view?usp=sharing"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   View Resume
                 </a>
               </li>
