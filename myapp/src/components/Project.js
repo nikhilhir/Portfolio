@@ -41,7 +41,11 @@ const Project = () => {
     },
   ]);
   return (
-    <div className="prices" id="Projects" style={{backgroundImage:"/images/bg.jpg"}}>
+    <div
+      className="prices"
+      id="Projects"
+      style={{ backgroundImage: "/images/bg.jpg" }}
+    >
       <div className="container">
         <div className="common">
           <h1 className="mainHeader">{header.subHeading}</h1>
@@ -62,21 +66,33 @@ const Project = () => {
                   <a
                     href={prices.link}
                     className="btn btn-outline"
-                    target='_blank'
-                    style={{color:"white"}}
+                    target="_blank"
+                    style={{ color: "white" }}
+                    rel="noreferrer"
                   >
-                   <FaShareSquare style={{fontSize:"22px", paddingTop:"5px",color:"white"}}/>
+                    <FaShareSquare
+                      style={{
+                        fontSize: "22px",
+                        paddingTop: "5px",
+                        color: "white",
+                      }}
+                    />
                   </a>
                   <a
                     href={prices.repolink}
                     className="btn btn-outline"
                     id="descShow"
-                    target='_blank'
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    <FaGithub style={{fontSize:"25px", paddingTop:"5px",color:"white"}}/>
+                    <FaGithub
+                      style={{
+                        fontSize: "25px",
+                        paddingTop: "5px",
+                        color: "white",
+                      }}
+                    />
                   </a>
-                  
-                  
                 </div>
               </div>
             </div>

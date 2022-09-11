@@ -2,15 +2,15 @@ import React from "react";
 import {
   FaHtml5,
   FaCss3,
-  FaJava,
   FaReact,
   FaNodeJs,
-  FaLeaf,
   FaGithub,
   FaBootstrap,
+
   
   
 } from "react-icons/fa";
+import {SiJavascript,SiMongodb} from "react-icons/si"
 const Skills = () => {
   const [header] = React.useState({
     subHeading: "SKILLS",
@@ -28,7 +28,7 @@ const Skills = () => {
     },
     {
       id: 3,
-      icon: <FaJava className="commonIcons" />,
+      icon: <SiJavascript className="commonIcons" />,
       heading: "JavaScript",
     },
     {
@@ -43,7 +43,7 @@ const Skills = () => {
     },
     {
       id: 6,
-      icon: <FaLeaf className="commonIcons" />,
+      icon: <SiMongodb className="commonIcons" />,
       heading: "MongoDB",
     },
     {

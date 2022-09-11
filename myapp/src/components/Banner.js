@@ -18,7 +18,11 @@ const Banner = () => {
                 <p>{state.text}</p>
                 <ul className="contactCircles">
                   <li>
-                    <a href="https://github.com/nikhilhir" target="_blank">
+                    <a
+                      href="https://github.com/nikhilhir"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <FaGithub className="headerIcon" />
                     </a>
                   </li>
@@ -26,12 +30,17 @@ const Banner = () => {
                     <a
                       href="https://www.linkedin.com/in/nikhil-hirulkar-882a70127/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <FaLinkedinIn className="headerIcon" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://twitter.com/@HirulkarR" target="_blank">
+                    <a
+                      href="https://twitter.com/@HirulkarR"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <FaTwitter className="headerIcon" />
                     </a>
                   </li>
