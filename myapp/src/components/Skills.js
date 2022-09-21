@@ -1,4 +1,5 @@
 import React from "react";
+// import GitHubCalendar from "react-github-calendar";
 import {
   FaHtml5,
   FaCss3,
@@ -67,7 +68,7 @@ const Skills = () => {
           </div>
 
           <div className="row bgMain">
-            {state.map((info,id) => (
+            {state.map((info, id) => (
               <div className="col-4 bgMain" key={id}>
                 <div className="services__box">
                   {info.icon}
@@ -78,6 +79,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      {/* <GitHubCalendar style={{ margin: "auto" }} username="nikhilhir" /> */}
     </div>
   );
 };

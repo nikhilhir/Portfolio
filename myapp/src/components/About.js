@@ -1,9 +1,11 @@
 import React from "react";
+//import { ThemeContext } from "../Context/theme";
 
 const About = () => {
   const [header] = React.useState({
     subHeader: "About Me",
   });
+  //const [{ themename }] = React.useContext(ThemeContext);
 
   return (
     <div className="about" id="About">

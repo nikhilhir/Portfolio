@@ -652,3 +652,16 @@ html {
 @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
   .ipad-landscape { color: blue; } /* your css rules for ipad landscape */
 }
+
+/* @media (max-width: 600px) {
+  .project {
+    flex-direction: column;
+   
+  }
+  .project_videocontainer {
+    flex-basis: 40%;
+  }
+  .project_information {
+    flex-basis: 60%;
+  }
+}  */

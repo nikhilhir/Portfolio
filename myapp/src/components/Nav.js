@@ -1,8 +1,10 @@
 import React from "react";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaMoon, FaSun } from "react-icons/fa";
+//import { ThemeContext } from "../Context/theme";
 
 const Nav = () => {
   const [state, setState] = React.useState(true);
+  // const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
 
   return (
     <nav className="navbar">
@@ -43,6 +45,19 @@ const Nav = () => {
                   View Resume
                 </a>
               </li>
+              {/* <button
+                type="button"
+                onClick={toggeltheme}
+                className="btn btn--icon nav__theme"
+                aria-label="toggle theme"
+                style={{ backgroundColor: "inherit" }}
+              >
+                {themename === "dark" ? (
+                  <FaSun />
+                ) : (
+                  <FaMoon />
+                )}
+              </button> */}
             </ul>
           ) : (
             ""
