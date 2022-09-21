@@ -67,14 +67,15 @@ const Project = () => {
                     href={prices.link}
                     className="btn btn-outline"
                     target="_blank"
-                    style={{ color: "white" }}
+                    style={{ color: "white"  }}
                     rel="noreferrer"
                   >
                     <FaShareSquare
                       style={{
                         fontSize: "22px",
-                        paddingTop: "5px",
+                        paddingTop: "1px",
                         color: "white",
+                        
                       }}
                     />
                   </a>

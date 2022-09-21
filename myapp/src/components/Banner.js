@@ -6,7 +6,7 @@ const Banner = () => {
     title: "Nikhil Hirulkar",
     text: "FULL-STACK WEB DEVELOPER",
     image: "./images/ProfilePic.jpg",
-  });
+   });
   return (
     <header id="Banner" className="header">
       <div className="container">

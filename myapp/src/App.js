@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import About from "./components/About";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import Github from "./components/Github";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Nav />
       <About />
       <Skills />
+      <Github/>
       <Project />
       <Contact />
     </div>
