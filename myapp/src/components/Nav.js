@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBars, FaMoon, FaSun } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 //import { ThemeContext } from "../Context/theme";
 
 const Nav = () => {

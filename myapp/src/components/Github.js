@@ -1,12 +1,11 @@
 import React from "react";
-
+ import GitHubCalendar from "react-github-calendar";
 
 const Github = () => {
   return (
     <>
       <h1>Git hub</h1>
-    
-      
+      <GitHubCalendar style={{ margin: "auto" }} username="nikhilhir" />
     </>
   );
 };
