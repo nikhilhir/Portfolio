@@ -691,3 +691,9 @@ html {
     margin-left: -20px;
 }
 }
+@media (max-width: 1180px){
+.about__img img {
+    height: 290px;
+    width: 200px;
+}
+}
