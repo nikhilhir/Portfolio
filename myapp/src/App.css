@@ -25,9 +25,11 @@ body {
   height: 80px;
   position: fixed;
   top: 0;
-  background: linear-gradient(95deg, #408383, #7e5b5b);
+  /* background: linear-gradient(95deg, #408383, #7e5b5b); */
+   background: linear-gradient(95deg, rgb(157,188,188), rgb(0,102,102));
   z-index: 1;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); */
+   box-shadow: 0 7px 25px rgb(107,107,107);
 }
 
 .navbar__container {
@@ -212,7 +214,8 @@ p {
 
 /* Servives */
 .services {
-background: url("../public/images/bg.jpg");
+ background: url("../public/images/bg.jpg"); 
+ /* background: linear-gradient(95deg, rgb(157,188,188), rgb(0,102,102)); */
   padding: 20px 0;
   color: #fff;
 }
@@ -294,7 +297,8 @@ background: url("../public/images/bg.jpg");
   width: 100%;
   padding: 20px 0;
   color: #000;
- background: url("../public/images/bg.jpg");
+ /* background: url("../public/images/bg.jpg"); */
+  background: linear-gradient(95deg,  rgb(0,102,102),rgb(157,188,188));
 }
 
 .about__img {
@@ -348,7 +352,8 @@ background: url("../public/images/bg.jpg");
 .prices {
   width: 100%;
   padding: 40px 0;
-background: url("../public/images/bg.jpg");
+/* background: url("../public/images/bg.jpg"); */
+background: linear-gradient(95deg,  rgb(211,211,211),rgb(71,88,96));
 }
 
 .price {
