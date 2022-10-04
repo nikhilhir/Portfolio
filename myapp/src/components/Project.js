@@ -12,8 +12,10 @@ const Project = () => {
       heading: "Bewakoof.com Clone",
       img: "./images/Bewakoof.png",
       link: "https://cloneofbewakoof.netlify.app/",
-      repolink: "https://github.com/nikhilhir/Bewakoof.com--Project-?organization=nikhilhir&organization=nikhilhir",
-      p:"This is a clone of Bewakoof.com.is a E-Commerce website for Clothes and Accessories, on-trend clothing at affordable prices. We try to build a Bewakoof.com clone using Html, CSS, and JavaScript"
+      repolink:
+        "https://github.com/nikhilhir/Bewakoof.com--Project-?organization=nikhilhir&organization=nikhilhir",
+      p: "This is a clone of Bewakoof.com.is a E-Commerce website for Clothes and Accessories, on-trend clothing at affordable prices. We try to build a Bewakoof.com using tech-stack Html, CSS, and JavaScript , DomManipulation",
+      // stack: "Html, CSS, and JavaScript , DomManupulation ",
     },
     {
       id: 2,
@@ -21,7 +23,7 @@ const Project = () => {
       img: "./images/NordstromRack.png",
       link: "https://lustrous-eclair-2f1c6d.netlify.app/index.html",
       repolink: "https://github.com/nikhilhir/Nordstromrack_clone",
-      p:"A US-based e-commerce website.where users can purchase clothes, accessories, household, and lifestyle products. we have cloned using Html, CSS, and JavaScript and json-server"
+      p: "A US-based e-commerce website.where users can purchase clothes, accessories, household, and lifestyle products. we have cloned using Html, CSS, and JavaScript and json-server",
     },
     {
       id: 3,
@@ -29,7 +31,7 @@ const Project = () => {
       img: "./images/BeBodywise.png",
       link: "https://loquacious-lolly-d585d1.netlify.app/",
       repolink: "https://github.com/nikhilhir/TeamFriends",
-      p:"Be Bodywise is a website provides diagnostics and e-pharmacy.It is e-commerce where users purchase health care products. plus free online consultation from the team of doctors for women’s health &wellness. "
+      p: "Be Bodywise is a website provides diagnostics and e-pharmacy.It is e-commerce where users purchase health care products. plus free online consultation from the team of doctors for women’s health &wellness. ",
     },
     {
       id: 4,
@@ -37,7 +39,7 @@ const Project = () => {
       img: "./images/TATA_1mg.png",
       link: "https://relaxed-mousse-6ea758.netlify.app/",
       repolink: "https://github.com/nikhilhir/clone1mg",
-      p:"Tata 1mg, is a healthcare platform based in Gurgaon, India. It provides services, including e-pharmacy, diagnostics, e-consultation and health content.we have cloned using Html, CSS, and JavaScript,React,Redux and json-server "
+      p: "Tata 1mg, is a healthcare platform based in Gurgaon, India. It provides services, including e-pharmacy, diagnostics, e-consultation and health content.we have cloned using Html, CSS, and JavaScript,React,Redux and json-server ",
     },
   ]);
   return (
@@ -62,20 +64,22 @@ const Project = () => {
                 </div>
                 <p id="desc">{prices.p}</p>
 
+                {/* <p id="desc"> Teck-Stack:{prices.stack}</p> */}
+
                 <div className="price__btn">
                   <a
                     href={prices.link}
                     className="btn btn-outline"
                     target="_blank"
-                    style={{ color: "white"  }}
+                    style={{ color: "white" }}
                     rel="noreferrer"
                   >
                     <FaShareSquare
                       style={{
+                        width: "100px",
                         fontSize: "22px",
                         paddingTop: "1px",
                         color: "white",
-                        
                       }}
                     />
                   </a>
@@ -88,6 +92,7 @@ const Project = () => {
                   >
                     <FaGithub
                       style={{
+                        width: "100px",
                         fontSize: "25px",
                         paddingTop: "5px",
                         color: "white",

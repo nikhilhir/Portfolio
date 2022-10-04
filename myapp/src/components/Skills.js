@@ -11,7 +11,7 @@ import {
   
   
 } from "react-icons/fa";
-import {SiJavascript,SiMongodb} from "react-icons/si"
+import {SiChakraui, SiExpress, SiJavascript,SiMongodb, SiRedux} from "react-icons/si"
 const Skills = () => {
   const [header] = React.useState({
     subHeading: "SKILLS",
@@ -38,15 +38,26 @@ const Skills = () => {
       heading: "React",
     },
     {
+      id: 8,
+      icon: <SiRedux className="commonIcons" />,
+      heading: "Redux",
+    },
+    {
       id: 5,
       icon: <FaNodeJs className="commonIcons" />,
       heading: "NodeJS",
+    },
+    {
+      id: 8,
+      icon: <SiExpress className="commonIcons" />,
+      heading: "Express",
     },
     {
       id: 6,
       icon: <SiMongodb className="commonIcons" />,
       heading: "MongoDB",
     },
+
     {
       id: 7,
       icon: <FaGithub className="commonIcons" />,
@@ -54,9 +65,10 @@ const Skills = () => {
     },
     {
       id: 8,
-      icon: <FaBootstrap className="commonIcons" />,
-      heading: "Bootstrap",
+      icon: <SiChakraui className="commonIcons" />,
+      heading: "ChakraUI",
     },
+ 
   ]);
   return (
     <div className="services" id="Skills">
@@ -82,9 +94,13 @@ const Skills = () => {
       <div>
         <GitHubCalendar
           style={{
+            // width:"400px",
             margin: "auto",
-            background: "rgb(160,204,249)",
+            background: "rgb(116, 110, 110)",
             color: "black",
+            fontSize:"xl",
+            padding: "17px",
+            paddingRight:"20px"
           }}
           username="nikhilhir"
         />

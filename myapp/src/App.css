@@ -13,7 +13,8 @@ body {
 .header {
   width: 100%;
   height: 100vh;
-  background: url("../public/images/bg.jpg");
+  /* background: url("../public/images/bg.jpg"); */
+  background: linear-gradient(95deg,  rgb(211,211,211),rgb(71,88,96));
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -22,11 +23,12 @@ body {
 /* navbar */
 .navbar {
   width: 100%;
-  height: 80px;
+  height: px;
   position: fixed;
   top: 0;
   /* background: linear-gradient(95deg, #408383, #7e5b5b); */
-   background: linear-gradient(95deg, rgb(157,188,188), rgb(0,102,102));
+   /* background: linear-gradient(95deg, rgb(157,188,188), rgb(0,102,102)); */
+   background: linear-gradient(95deg,  rgb(211,211,211),rgb(71,88,96));
   z-index: 1;
   /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); */
    box-shadow: 0 7px 25px rgb(107,107,107);
@@ -34,17 +36,17 @@ body {
 
 .navbar__container {
   display: flex;
-  height: 60px;
+  height: 70px;
   align-items: center;
   justify-content: space-between;
   width: 100%;
 }
 
 .navbar__left-logo img {
-  width: 100px;
+  width: 80px;
 }
 .navbar__left-logo img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
       border-radius: 10px;
 }
 
@@ -66,7 +68,8 @@ body {
 .navbar__right li a:hover {
  transform: scale(1.2);
     border-radius: 10px;
-  background-color:goldenrod;
+  background-color:rgb(255,74,87);
+  
   /* text-decoration: "Underline"; */
   
 }
@@ -191,7 +194,7 @@ p {
 }
 
 .btn-outline:hover {
-  background-color: black;
+  background-color: #ff4a57;
   color: white;
   transition: all 0.8s linear;
 }
@@ -214,8 +217,8 @@ p {
 
 /* Servives */
 .services {
- background: url("../public/images/bg.jpg"); 
- /* background: linear-gradient(95deg, rgb(157,188,188), rgb(0,102,102)); */
+ /* background: url("../public/images/bg.jpg");  */
+background: linear-gradient(95deg,rgb(71,88,96),rgb(211,211,211));
   padding: 20px 0;
   color: #fff;
 }
@@ -294,11 +297,11 @@ p {
 }
 
 .about {
-  width: 100%;
+  width: 100%;  
   padding: 20px 0;
   color: #000;
  /* background: url("../public/images/bg.jpg"); */
-  background: linear-gradient(95deg,  rgb(0,102,102),rgb(157,188,188));
+  background: linear-gradient(95deg,rgb(71,88,96),rgb(211,211,211));
 }
 
 .about__img {
@@ -321,6 +324,8 @@ p {
 .about__info-p1 {
   font-size: 16px;
   margin-bottom: 50px;
+  font-size: large;
+  font-weight: 500;
 }
 
 .about__info-p2 {
@@ -363,7 +368,7 @@ background: linear-gradient(95deg,  rgb(211,211,211),rgb(71,88,96));
   margin: 15px 10px;
   color: #fff;
   text-align: center;
-  border: 4px solid yellow;
+  border: 2px solid #ff4a57;
 }
 
 .priceHeading {
