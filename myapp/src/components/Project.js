@@ -76,7 +76,7 @@ const Project = () => {
                   >
                     <FaShareSquare
                       style={{
-                        width: "100px",
+                        width: "80%",
                         fontSize: "22px",
                         paddingTop: "1px",
                         color: "white",
@@ -92,7 +92,7 @@ const Project = () => {
                   >
                     <FaGithub
                       style={{
-                        width: "100px",
+                        width: "80%",
                         fontSize: "25px",
                         paddingTop: "5px",
                         color: "white",

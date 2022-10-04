@@ -70,8 +70,6 @@ body {
     border-radius: 10px;
   background-color:rgb(255,74,87);
   
-  /* text-decoration: "Underline"; */
-  
 }
 
 /* Helpers */
@@ -358,7 +356,7 @@ background: linear-gradient(95deg,rgb(71,88,96),rgb(211,211,211));
   width: 100%;
   padding: 40px 0;
 /* background: url("../public/images/bg.jpg"); */
-background: linear-gradient(95deg,  rgb(211,211,211),rgb(71,88,96));
+   background: linear-gradient(95deg,  rgb(211,211,211),rgb(71,88,96));
 }
 
 .price {
