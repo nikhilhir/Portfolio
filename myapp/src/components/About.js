@@ -34,7 +34,7 @@ const About = () => {
 
               <div className="header__buttons myBtn">
                 <a
-                  href="https://drive.google.com/file/d/1Y8kt2PPRPso_jENBf3XXkE_1Qfb6u3NC/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1zp9B9CXM4kdyEJzEeCmvwzM4D_a1ASnx/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                   className="btn btn-outline"
