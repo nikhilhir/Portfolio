@@ -38,7 +38,7 @@ const Nav = () => {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1zp9B9CXM4kdyEJzEeCmvwzM4D_a1ASnx/view?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1ect9y7mx6R-7P71pn5gQ8E1Q0pF4lzF9"
                   target="_blank"
                   rel="noreferrer"
                 >
