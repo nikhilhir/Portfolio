@@ -37,7 +37,7 @@ const Project = () => {
       id: 4,
       heading: "TATA 1mg Clone",
       img: "./images/TATA_1mg.png",
-      link: "https://relaxed-mousse-6ea758.netlify.app/",
+      link: "https://clone1mgtata.netlify.app/",
       repolink: "https://github.com/nikhilhir/clone1mg",
       p: "Tata 1mg, is a healthcare platform based in Gurgaon, India. It provides services, including e-pharmacy, diagnostics, e-consultation and health content.we have cloned using Html, CSS, and JavaScript,React,Redux and json-server ",
     },
